@@ -4,6 +4,50 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
-.theme-light {
+.theme-light{
+    --themes-background: #FFF;
+    --background-image:
+        repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
+        repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --themes-main-color: #000;
+    --card-text-font-weight: 400;
+    --card-title-font-weight: 700;
+}
 
+.theme-dark{
+    --themes-background: #000;
+    --background-image:
+        repeating-linear-gradient(to top, transparent 0 2px, #000 2px 4px),
+        repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+        linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
+    --themes-main-color: #00CC14;
+    --card-text-font-weight: 465;
+    --card-title-font-weight: 785;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --themes-background: #FFF;
+        --background-image:
+            repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
+            repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+            linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+        --themes-main-color: #000;
+        --card-text-font-weight: 400;
+        --card-title-font-weight: 700;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --themes-background: #000;
+        --background-image:
+            repeating-linear-gradient(to top, transparent 0 2px, #000 2px 4px),
+            repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+            linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
+        --themes-main-color: #00CC14;
+        --card-text-font-weight: 465;
+        --card-title-font-weight: 785;
+    }
 }
