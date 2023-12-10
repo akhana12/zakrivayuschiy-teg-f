@@ -4,6 +4,7 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
 .theme-light{
     --themes-background: #FFF;
     --background-image:
@@ -13,6 +14,10 @@
     --themes-main-color: #000;
     --card-text-font-weight: 400;
     --card-title-font-weight: 700;
+    --watermark-shadow-color: #FFF;
+    --button-hover-color: #FFF;
+    --contur-color: #000;
+    --fill-color: #F00;
 }
 
 .theme-dark{
@@ -24,19 +29,10 @@
     --themes-main-color: #00CC14;
     --card-text-font-weight: 465;
     --card-title-font-weight: 785;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --themes-background: #FFF;
-        --background-image:
-            repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
-            repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
-            linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
-        --themes-main-color: #000;
-        --card-text-font-weight: 400;
-        --card-title-font-weight: 700;
-    }
+    --watermark-shadow-color: #000000;
+    --button-hover-color: #00CC14;
+    --contur-color: #00CC14;
+    --fill-color: #F00;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,5 +45,11 @@
         --themes-main-color: #00CC14;
         --card-text-font-weight: 465;
         --card-title-font-weight: 785;
+        --watermark-shadow-color: #000000;
+        --button-hover-color: #00CC14;
+        --contur-color: #00CC14;
+        --fill-color: #F00;
     }
 }
+
+

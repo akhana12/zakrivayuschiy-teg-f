@@ -6,15 +6,16 @@
     --main-font-size: 18px;
     --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-    --floppy-size: 28px;
-}
-
-@media (width <= 375px) {
-    .footer_button {
-        flex-direction: column;
-    }
-
-    .floppy-icon {
-        inline-size: 28px;
-    }
+    --themes-background: #FFF;
+    --background-image:
+        repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
+        repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --themes-main-color: #000;
+    --card-text-font-weight: 400;
+    --card-title-font-weight: 700;
+    --watermark-shadow-color: #FFF;
+    --button-hover-color: #FFF;
+    --contur-color: #000;
+    --fill-color: #F00;
 }
