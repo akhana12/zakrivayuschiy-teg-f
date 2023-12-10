@@ -172,8 +172,6 @@
 .card__image {
   width: 100%;
   aspect-ratio: 1/1;
-  max-inline-size: 692px;
-  max-block-size: 692px;
   object-fit: cover;
   filter: none;
   transition: filter 0.3s ease;
@@ -291,6 +289,10 @@
 
 .card__image_container {
   position: relative;
+  border-top: 2px solid var(--themes-main-color);
+  border-bottom: 2px solid var(--themes-main-color);
+  block-size: 696px;
+
 }
 
 .card__image_watermark {
