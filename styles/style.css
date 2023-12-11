@@ -380,7 +380,7 @@
   padding: 30px;
   color: var(--themes-main-color, #000);
   background-color: var(--themes-background, #fff);
-  outline: 2px solid var(--themes-main-color, #000);
+  border: 2px solid var(--themes-main-color, #000);
   position: fixed;
   inset: 0;
   transition: opacity 0.3s ease-in-out;
