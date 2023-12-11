@@ -165,7 +165,7 @@
 .card__title {
   font-size: 18px;
   font-style: normal;
-  font-variation-settings: "wght" var(--card-title-font-weight);
+  font-variation-settings: 'wght' var(--card-title-font-weight);
   line-height: normal;
   padding: 3px 10px;
 }
@@ -326,7 +326,7 @@
 }
 
 .footer {
-  margin: 50px auto 102px;
+  margin: 50px auto 100px;
 }
 
 .footer_button {
