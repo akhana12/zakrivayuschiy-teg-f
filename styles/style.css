@@ -387,7 +387,7 @@
   max-inline-size: clamp(21.313rem, 80%, 22.313rem);
 }
 
-.dialog__form {
+.dialog[open] {
   display: grid;
   grid-template-columns: 39px 1fr;
   grid-template-rows: 63px 1fr;
