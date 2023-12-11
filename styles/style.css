@@ -46,9 +46,9 @@
   gap: 20px;
   inline-size: clamp(23.188rem, 100%, 43.5rem);
   block-size: clamp(20.188rem, 100%, 22.75rem);
-  padding: clamp(7.5rem, 1.502vw + 7.148rem, 8.5rem) 0 25px;
+  padding: clamp(120px, ((100vw - 375px) / 100) * 2.5 + 120px, 136px) 0 25px;
   background-color: var(--themes-background, #fff);
-  border: 2px solid var(--themes-main-color, #000);
+  outline: 2px solid var(--themes-main-color, #000);
 }
 
 .header__title {
@@ -77,7 +77,7 @@
   align-items: flex-start;
   padding-top: 5px;
   padding-left: 20px;
-  gap: 12px;
+  gap: 14px;
 }
 
 .theme-menu__item {
@@ -160,8 +160,8 @@
 .card {
   margin: auto;
   background: var(--themes-background, #fff);
-  border: 2px solid var(--themes-main-color, #000);
-  inline-size: clamp(23.188rem, 90%, 43.5rem);
+  outline: 2px solid var(--themes-main-color, #000);
+  inline-size: clamp(23.188rem, 100%, 43.5rem);
 }
 
 .card__title {
@@ -380,7 +380,7 @@
   padding: 30px;
   color: var(--themes-main-color, #000);
   background-color: var(--themes-background, #fff);
-  border: 2px solid var(--themes-main-color, #000);
+  outline: 2px solid var(--themes-main-color, #000);
   position: fixed;
   inset: 0;
   transition: opacity 0.3s ease-in-out;
