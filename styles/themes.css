@@ -5,51 +5,59 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-.theme-light{
-    --themes-background: #FFF;
-    --background-image:
-        repeating-linear-gradient(to top, transparent 0 2px, #d3d3d3 2px 4px),
-        repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
-        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
-    --themes-main-color: #000;
-    --card-text-font-weight: 400;
-    --card-title-font-weight: 700;
-    --watermark-shadow-color: #FFF;
-    --button-hover-color: #FFF;
-    --contur-color: #000;
-    --fill-color: #F00;
+.theme-light {
+  --themes-background: #fff;
+  --background-image: repeating-linear-gradient(
+      to top,
+      transparent 0 2px,
+      #d3d3d3 2px 4px
+    ),
+    repeating-linear-gradient(90deg, transparent 0 2px, #d3d3d3 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --themes-main-color: #000;
+  --text-font-weight: 400;
+  --card-title-font-weight: 700;
+  --watermark-shadow-color: #fff;
+  --button-hover-color: #fff;
+  --contur-color: #000;
+  --fill-color: #f00;
 }
 
-.theme-dark{
-    --themes-background: #000;
-    --background-image:
-        repeating-linear-gradient(to top, transparent 0 2px, #000 2px 4px),
-        repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
-        linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
-    --themes-main-color: #00CC14;
-    --card-text-font-weight: 465;
-    --card-title-font-weight: 785;
-    --watermark-shadow-color: #000000;
-    --button-hover-color: #00CC14;
-    --contur-color: #00CC14;
-    --fill-color: #F00;
+.theme-dark {
+  --themes-background: #000;
+  --background-image: repeating-linear-gradient(
+      to top,
+      transparent 0 2px,
+      #000 2px 4px
+    ),
+    repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+    linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
+  --themes-main-color: #00cc14;
+  --text-font-weight: 465;
+  --card-title-font-weight: 785;
+  --watermark-shadow-color: #000;
+  --button-hover-color: #00cc14;
+  --contur-color: #00cc14;
+  --fill-color: #f00;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --themes-background: #000;
-        --background-image:
-            repeating-linear-gradient(to top, transparent 0 2px, #000 2px 4px),
-            repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
-            linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
-        --themes-main-color: #00CC14;
-        --card-text-font-weight: 465;
-        --card-title-font-weight: 785;
-        --watermark-shadow-color: #000000;
-        --button-hover-color: #00CC14;
-        --contur-color: #00CC14;
-        --fill-color: #F00;
-    }
+
+  :root {
+    --themes-background: #000;
+    --background-image: repeating-linear-gradient(
+        to top,
+        transparent 0 2px,
+        #000 2px 4px
+      ),
+      repeating-linear-gradient(90deg, transparent 0 2px, #000 2px 4px),
+      linear-gradient(to bottom, #007f0c 0.01%, #004306 100%);
+    --themes-main-color: #00cc14;
+    --text-font-weight: 465;
+    --card-title-font-weight: 785;
+    --watermark-shadow-color: #000;
+    --button-hover-color: #00cc14;
+    --contur-color: #00cc14;
+    --fill-color: #f00;
+  }
 }
-
-
