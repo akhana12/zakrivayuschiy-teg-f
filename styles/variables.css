@@ -1,11 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --main-font-family: 'Inter-Variable', sans-serif;
-  --accent-font-family: 'Press Start 2P', fantasy;
+  --main-font-family: 'Inter-Variable';
+  --accent-font-family: 'Press Start 2P';
   --main-font-size: 18px;
-  --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --themes-background: #fff;
   --background-image: repeating-linear-gradient(
       to top,
